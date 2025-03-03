@@ -19,7 +19,7 @@ JOIN city c2 ON a.city_id = c2.city_id
 GROUP BY c.store_id  
 HAVING count(c.customer_id) > 300;
 ```
-![answer1](image-1.png)
+![answer1](image-3.png)
 
 ### Задание 2
 
